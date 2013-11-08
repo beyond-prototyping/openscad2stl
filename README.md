@@ -9,8 +9,7 @@ Installation
 
 As a [docker](http://docker.io/) container:
 
-    $ curl https://raw.github.com/beyond-prototyping/openscad2stl/master/Dockerfile | docker build -t openscad2stl -
-    $ ID=$(docker run -p 5000 -d openscad2stl)
+    $ ID=$(docker run -p 5000 -d philippbosch/openscad2stl)
     $ docker port $ID 5000
     0.0.0.0:99999
 
